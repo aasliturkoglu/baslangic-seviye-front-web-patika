@@ -16,7 +16,10 @@
 
     <p>HTML <br> Etiketleri</p>
 
-    <a href="#footer"> En alt kısma git. </a>
+    <!--sayfa içine link verme-->
+    <a href="#footer">Aşağı Git</a>
+    <a name="footer"></a>    
+    
     <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -31,6 +34,12 @@
 
     <hr>
 
+    <ol type="I">   
+        <li>Javascript</li>
+        <li>C#</li>
+        <li>Php</li>
+      </ol>
+
     <p>
       CSS, HTML elementlerinin çeşitli medya araçlarında nasıl ekrana
       yansıtılacağını tanımlayan bir dildir. Tek seferde birden çok sayfa için
@@ -38,6 +47,7 @@
     </p>
 
     <h2><strong> Kodluyoruz </strong></h2>
+    
 
     <p><b> HTML </b> Etiketleri </p>
 
@@ -52,5 +62,71 @@
     <iframe width="724" height="407" src="https://www.youtube.com/embed/W0wmB3mL73U" title="Yalnızım Mesut Bey | 1. Sezon | 3. Bölüm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     <p>This is a paragraph.</p> <p>This is another paragraph.</p>
+
+    <!--alfabeyle-->
+<ol type="A">   
+	<li>Javascript</li>
+  <li>C#</li>
+  <li>Php</li>
+</ol>
+
+<!--başındaki daireyi silmek için-->
+<ul style="list-style-type:none">   <li>Çay</li>
+  <li>Türk Kahvesi</li>
+  <li>Süt</li>
+</ul>
+
+<ul style="list-style-type:square">   <li>Telefon</li>
+    <li>Bilgisayar</li>
+    <li>Yazıcı</li>
+  </ul>
+
+  <ul style="list-style-type:disc">   <li>Telefon</li>
+    <li>Bilgisayar</li>
+    <li>Yazıcı</li>
+  </ul>
+
+  <ul style="list-style-type:circle">   <li>Telefon</li>
+    <li>Bilgisayar</li>
+    <li>Yazıcı</li>
+  </ul>
+
+  <!-- cursor ile resmin üstüne gelince title çıkar-->
+  <img src="git.png"  title="image"/>	
+
+  <img src="git.png" width="50" height="50" border="3" />
+  <br>
+  <img src="git.png" align="right" width="50" height="50" />
+  
+
+  <img src="indir.jpeg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+  <map name="workmap">
+   <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+   <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+   <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+  </map>
+
+  <!--mail atma-->
+  <a href="mailto:info@kodluyoruz.org">Kodluyoruz'a mail atınız.</a>
+
+
+
+<!--sayfa içine link verme-->
+
+  <h2 id="footer">geçildi</h2>
+
+  <img src="indir.jpeg" onload="resimYuklendi()" />
+
+
+  <!--resim yüklenince popup çıkıyor resim yüklendi alert-->
+ <!--- <script>
+    function resimYuklendi(){
+        alert("Resim yüklendi.");
+    }
+</script>
+-->
+
+
 </body>
 </html>
