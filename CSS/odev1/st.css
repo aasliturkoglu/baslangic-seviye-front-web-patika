@@ -1,0 +1,42 @@
+body {
+    background-color: #EFE1D1;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*bu kodu gpt düzenledi
+asıl style ile karşılaştır gereksiz kodlardan kurtulmak amacıyla
+foto.htmlde dene*/ 
+
+header {
+    background-color: #89375F;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.img-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fotos {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #3F2E3E;
+}
