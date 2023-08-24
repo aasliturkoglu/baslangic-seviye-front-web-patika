@@ -1,0 +1,42 @@
+.box {
+    display: flex; /* Flexbox kullanarak içeriği yatay olarak hizalayın */
+    justify-content: center; /* İçeriği yatayda ortala */
+}
+
+.box1 {
+    background-color: #7EE5DA;
+    text-align: center;
+    margin-right: 5px; 
+    margin-top: 5px;
+    width: 30.5%;
+
+
+
+}
+
+.box2 {
+    background-color: #70CCC2;
+    text-align: center;
+    margin-right: 5px; 
+    margin-top: 5px;
+
+    width: 30.5%;
+
+
+}
+
+.box3 {
+    margin-top: 5px;
+    background-color: #62B3AA;
+    text-align: center;
+    width: 30.5%;
+
+
+}
+
+.search{
+    width: 90%;
+    margin: 0 auto; /* Elemanları yatayda ortala */
+    padding: 15px; /* Elemanların etrafında 15px boşluk bırak */
+}
+
