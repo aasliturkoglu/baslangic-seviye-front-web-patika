@@ -118,6 +118,7 @@ body{
     font: 16px arial, sans-serif;
     line-height: 34px;
     height: 34px !important;
+    width: 480px;
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
@@ -138,8 +139,14 @@ body{
     cursor: pointer;
     user-select: none;
   }
+
+  .googlesearch:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+    }
   
   .feelinglucky {
+    margin: 11px 4px;
+
     padding: 0 16px;
     line-height: 27px;
     min-width: 54px;
@@ -147,6 +154,10 @@ body{
     cursor: pointer;
     user-select: none;
   }
+
+  .feelinglucky:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+    }
   
   .footer {
     margin: 0;
@@ -203,4 +214,24 @@ body{
     user-select: none;
   }
 
+
+  .mic-img-span {
+    background-image: url('assets/voicelogo.png'); /* Görsel yolunu burada belirtin */
+    background-size: cover; /* Görselin boyutunu ayarlayın */
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+  }
   
+
+
+.mic-img-div-2 {
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}

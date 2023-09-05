@@ -1,0 +1,60 @@
+body {
+  background-color: #E9ECEF; /*jumbotron bg rengi ile aynı*/
+}
+
+h1 {
+  text-align: center;
+  color: #3f2e3e;
+}
+
+h2 {
+  text-align: center;
+  color: #89375f;
+}
+h3 {
+  color: #89375f;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/*ul ve navbar-uldeki css kodları menüyü ortalamak için önemli burayı düzenlemeye çalış*/
+ul { /*menü ortalanır ancak alt alta navbar-ulsiz*/
+    
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+#navbar-ul { /*ul olmadan menü yine ortada ancak */
+    display: flex;/*alt alta olmasından kurtarır*/
+    justify-content: center; /* Yatayda merkezleme */
+    align-items: center; /* Dikeyde merkezleme */
+    list-style-type: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 0; /* Son öğenin sağına boşluk eklemeyin */
+}
+
+/* img-div ve fotostaki css kodlarına dikkat et. */
+.img-div {
+  display: flex;
+  flex-direction: column; /* Fotoğrafları alt alta sırala */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fotos {
+  width: 100%; /* Tüm fotoğrafların genişliği eşit olsun */
+  height: auto; /* Oranları korumak için */
+  max-width: 400px; /* İstediğiniz genişlik değeri */
+  margin-top: 20px; /* İstediğiniz boşluk değeri */
+}
